@@ -11,3 +11,9 @@ resource "aws_lb" "network" {
   enable_deletion_protection = var.enable_deletion_protection
   tags = var.tags
 }
+
+variable "aws_region" {
+  description = "The AWS region to deploy resources."
+  type        = string
+  default     = "sa-east-1"
+}

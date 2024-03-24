@@ -1,10 +1,5 @@
 # variables.tf
 
-variable "aws_region" {
-  description = "The AWS region to deploy resources."
-  type        = string
-}
-
 variable "name" {
   description = "Name for the Network Load Balancer"
   type        = string
